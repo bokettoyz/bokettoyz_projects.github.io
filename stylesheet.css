@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+    font-family: 'Ubuntu', 'Arial';
+}
+h1 {
+    text-align: center;
+    color: #2962FF;
+}
+#pokemon_icon {
+    padding: 1;}
+/* aqui empieza la configuracion del menu */
+#navone {
+    display: flex;
+    display: inline-block;
+    justify-content: space-around;
+}
+.menu {
+    width: 100%;
+    list-style: none;
+    background-color:black;
+    font-family: 'Ubuntu', Arial;
+}
+.menu li a {
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+    color: yellow;
+    text-decoration: none;
+    padding: 2px;
+}
+.menu li a:before {
+    content: "   "; /* utilizar para las transiciones de los elementos */
+    height: 1px;
+    width: 0;
+    background: yellow;
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: 0.3s; /* utilizar para las transiciones de los elementos */
+}    
+.menu li a:hover:before {
+    width: 15px;
+}
+/* aquí termina la configuración del menu */
+/* aquí empieza la configuración de los cuadros de proyecto */
+.inline {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.wip1 {
+    border: 5px dotted #FF5757;
+    border-radius: 130px;
+}
+.wip2 {
+    border: 5px dotted #C9E165;
+    border-radius: 130px;
+}
+.wip3 {
+    border: 5px dotted #FEBD59;
+    border-radius: 130px;
+}
+.wip4 {
+    border: 5px dotted #03989E;
+    border-radius: 130px;
+}
+footer {
+    text-align: center;
+}
+.bb:link {
+    color: yellow;
+}
+.bb:visited {
+    color: yellow;
+}
+.bb:hover {
+    color:teal;
+}
